@@ -246,7 +246,7 @@ async def next_page(bot, query):
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("⚡ How To Download ⚡", url=f"https://t.me/TheMoviesUpdate/130")
+        InlineKeyboardButton("⚡ CHECK BOT PM ⚡", url=f"https://t.me/{temp.U_NAME}")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -358,7 +358,7 @@ async def language_check(bot, query):
         ])
 
         btn.insert(0, [
-            InlineKeyboardButton("⚡ How To Download ⚡", url=f"https://t.me/TheMoviesUpdate/130")
+            InlineKeyboardButton("⚡ CHECK BOT PM ⚡", url=f"https://t.me/{temp.U_NAME}")
         ])
 
         if offset != "":
@@ -729,7 +729,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                 InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                                 InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Reqstmovies")
+                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
                                 ]
                                 ]
                             )
@@ -802,7 +802,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                   InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                   InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                ],[
-                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Reqstmovies")
+                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
                  ]
                 ]
             )
@@ -1626,7 +1626,7 @@ async def auto_filter(client, msg, spoll=False):
     ])
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ How To Download ⚡", url=f"https://t.me/TheMoviesUpdate/130")
+        InlineKeyboardButton("⚡ CHECK BOT PM ⚡", url=f"https://t.me/{temp.U_NAME}")
     ])
 
     if offset != "":
