@@ -73,7 +73,7 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
-    await message.reply_text("<b>★ 𝐆𝐨 𝐀𝐧𝐝 𝐓𝐲𝐩𝐞 𝐄𝐱𝐚𝐜𝐭 𝐍𝐚𝐦𝐞 𝐎𝐧 @TheMoviesRequests ★ Don't Type In Bot 👍👍 InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")!</b>")
+    await message.reply_text("<b>★ 𝐆𝐨 𝐀𝐧𝐝 𝐓𝐲𝐩𝐞 𝐄𝐱𝐚𝐜𝐭 𝐍𝐚𝐦𝐞 𝐎𝐧 @TheMoviesRequests ★ Don't Type In Bot 👍👍 InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz") !</b>")
         await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
