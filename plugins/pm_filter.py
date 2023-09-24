@@ -243,6 +243,7 @@ async def next_page(bot, query):
                 ],
             )
     btn.insert(0, [
+        InlineKeyboardButton("⚡ How To Download ⚡", url=f"https://t.me/{temp.U_NAME}"),
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
@@ -354,6 +355,7 @@ async def language_check(bot, query):
             )
         
         btn.insert(0, [
+            InlineKeyboardButton("⚡ How to Download ⚡", url=f"https://t.me/{temp.U_NAME}"),
             InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{userid}")
         ])
 
