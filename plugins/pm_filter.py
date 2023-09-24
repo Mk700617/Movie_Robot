@@ -246,7 +246,7 @@ async def next_page(bot, query):
        InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("⚡ How To Download ⚡", url=f"https://t.me/TheMoviesUpdate/130"),
+        InlineKeyboardButton("⚡How To Download⚡", url=f"https://t.me/TheMoviesUpdate/130"),
         InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
     ])
     try:
@@ -359,7 +359,7 @@ async def language_check(bot, query):
         ])
 
         btn.insert(0, [
-            InlineKeyboardButton("⚡ How To Download ⚡", url=f"https://t.me/TheMoviesUpdate/130"),
+            InlineKeyboardButton("⚡How To Download⚡", url=f"https://t.me/TheMoviesUpdate/130"),
             InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
         ])
 
@@ -1627,7 +1627,7 @@ async def auto_filter(client, msg, spoll=False):
     ])
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ How To Download ⚡", url=f"https://t.me/TheMoviesUpdate/130"),
+        InlineKeyboardButton("⚡How To Download⚡", url=f"https://t.me/TheMoviesUpdate/130"),
         InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
     ])
 
