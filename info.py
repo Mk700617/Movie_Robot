@@ -49,9 +49,9 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/TheMoviesUpdate/130")
-VERIFY2_URL = environ.get('VERIFY2_URL', "api.shareus.io")
-VERIFY2_API = environ.get('VERIFY2_API', "VsIjh8aWX4NTBQ0vzq1vqNRpEGH2")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://urlshortx.com')
+VERIFY2_URL = environ.get('VERIFY2_URL', "urlshortx.com")
+VERIFY2_API = environ.get('VERIFY2_API', "c460f2f1a0f68b2c56cda7f12121c210ed10b08b'")
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'urlshortx.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'c460f2f1a0f68b2c56cda7f12121c210ed10b08b')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
